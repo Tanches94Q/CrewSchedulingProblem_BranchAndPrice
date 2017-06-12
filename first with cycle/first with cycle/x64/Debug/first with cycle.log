@@ -1,0 +1,86 @@
+﻿Build started 12.06.2017 21:57:16.
+     1>Project "D:\first with cycle (4)\first with cycle\first with cycle\first with cycle.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+     1>main.cpp(81): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(87): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(146): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(178): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(180): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(220): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(222): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>main.cpp(252): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(268): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(289): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(290): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(340): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(373): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(378): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(429): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(443): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(491): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\first with cycle (4)\first with cycle\first with cycle\tree.h(113): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+                 d:\first with cycle (4)\first with cycle\first with cycle\tree.h(54) : while compiling class template member function 'Tree<float> *Tree<float>::Add_NEW(Tree<float> *,int,int,T **,T **,int,int *,int,T,T,std::vector<Edge,std::allocator<_Ty>>,int)'
+                 with
+                 [
+                     T=float
+         ,            _Ty=Edge
+                 ]
+                 main.cpp(268) : see reference to function template instantiation 'Tree<float> *Tree<float>::Add_NEW(Tree<float> *,int,int,T **,T **,int,int *,int,T,T,std::vector<Edge,std::allocator<_Ty>>,int)' being compiled
+                 with
+                 [
+                     T=float
+         ,            _Ty=Edge
+                 ]
+                 main.cpp(262) : see reference to class template instantiation 'Tree<float>' being compiled
+     1>d:\first with cycle (4)\first with cycle\first with cycle\tree.h(224): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\first with cycle (4)\first with cycle\first with cycle\tree.h(259): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\first with cycle (4)\first with cycle\first with cycle\tree.h(660): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+                 d:\first with cycle (4)\first with cycle\first with cycle\tree.h(642) : while compiling class template member function 'std::vector<float,std::allocator<_Ty>> Tree<float>::True_Cycles(std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>>,int,T,std::vector<Edge,std::allocator<Edge>>,int)'
+                 with
+                 [
+                     _Ty=float
+         ,            T=float
+                 ]
+                 d:\first with cycle (4)\first with cycle\first with cycle\tree.h(455) : see reference to function template instantiation 'std::vector<float,std::allocator<_Ty>> Tree<float>::True_Cycles(std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>>,int,T,std::vector<Edge,std::allocator<Edge>>,int)' being compiled
+                 with
+                 [
+                     _Ty=float
+         ,            T=float
+                 ]
+                 d:\first with cycle (4)\first with cycle\first with cycle\tree.h(403) : while compiling class template member function 'float Tree<float>::Bound(T **,int,T,T **,std::vector<Edge,std::allocator<_Ty>>,int)'
+                 with
+                 [
+                     T=float
+         ,            _Ty=Edge
+                 ]
+                 d:\first with cycle (4)\first with cycle\first with cycle\tree.h(121) : see reference to function template instantiation 'float Tree<float>::Bound(T **,int,T,T **,std::vector<Edge,std::allocator<_Ty>>,int)' being compiled
+                 with
+                 [
+                     T=float
+         ,            _Ty=Edge
+                 ]
+                 d:\first with cycle (4)\first with cycle\first with cycle\tree.h(45) : while compiling class template member function 'Tree<float>::Tree(const int &,const T &,Tree<T> *,Tree<T> *)'
+                 with
+                 [
+                     T=float
+                 ]
+                 main.cpp(262) : see reference to function template instantiation 'Tree<float>::Tree(const int &,const T &,Tree<T> *,Tree<T> *)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>d:\first with cycle (4)\first with cycle\first with cycle\tree.h(729): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\first with cycle (4)\first with cycle\x64\Debug\first with cycle.exe" /INCREMENTAL /NOLOGO lpsolve55.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\first with cycle (4)\first with cycle\x64\Debug\first with cycle.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\first with cycle (4)\first with cycle\x64\Debug\first with cycle.lib" /MACHINE:X64 x64\Debug\Integer.obj
+         x64\Debug\LAP.obj
+         x64\Debug\Smart.obj
+         x64\Debug\main.obj
+         x64\Debug\SYSTEM.obj
+         first with cycle.vcxproj -> D:\first with cycle (4)\first with cycle\x64\Debug\first with cycle.exe
+     1>Done Building Project "D:\first with cycle (4)\first with cycle\first with cycle\first with cycle.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.87

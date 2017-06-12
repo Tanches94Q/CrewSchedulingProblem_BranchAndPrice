@@ -1,0 +1,133 @@
+﻿Build started 14.05.2017 18:38:24.
+     1>Project "C:\Users\tanches\Desktop\first with cycle (2)\first with cycle\first with cycle\first with cycle.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt LAP.cpp Smart.cpp main.cpp
+         LAP.cpp
+     1>LAP.cpp(315): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(283) : see declaration of 'scanf'
+         Smart.cpp
+     1>Smart.cpp(49): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Smart.cpp(54): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Smart.cpp(64): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Smart.cpp(74): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Smart.cpp(169): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>Smart.cpp(171): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>Smart.cpp(180): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>Smart.cpp(187): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Smart.cpp(198): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>Smart.cpp(200): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Smart.cpp(204): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Smart.cpp(211): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>Smart.cpp(215): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Smart.cpp(219): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Smart.cpp(261): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Smart.cpp(267): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Smart.cpp(343): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Smart.cpp(350): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Smart.cpp(378): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Smart.cpp(384): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Smart.cpp(528): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Smart.cpp(541): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Smart.cpp(543): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Smart.cpp(583): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>Smart.cpp(461): warning C4101: 'cur_cycle' : unreferenced local variable
+     1>Smart.cpp(766): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Smart.cpp(727): warning C4101: 'next' : unreferenced local variable
+     1>Smart.cpp(729): warning C4101: 'choice' : unreferenced local variable
+     1>Smart.cpp(817): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>Smart.cpp(831): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Smart.cpp(836): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Smart.cpp(863): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Smart.cpp(869): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Smart.cpp(876): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>Smart.cpp(902): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Smart.cpp(951): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         main.cpp
+     1>main.cpp(77): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(83): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(144): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(172): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(228): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(230): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>main.cpp(271): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(277): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>main.cpp(284): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(296): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(297): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>main.cpp(332): warning C4101: 'lp' : unreferenced local variable
+     1>c:\users\tanches\desktop\first with cycle (2)\first with cycle\first with cycle\tree.h(104): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+                 c:\users\tanches\desktop\first with cycle (2)\first with cycle\first with cycle\tree.h(49) : while compiling class template member function 'Tree<float> *Tree<float>::Add_NEW(Tree<float> *,int,int,T **,T **,int,int *,int,T,T,std::vector<Edge,std::allocator<_Ty>>)'
+                 with
+                 [
+                     T=float
+         ,            _Ty=Edge
+                 ]
+                 main.cpp(284) : see reference to function template instantiation 'Tree<float> *Tree<float>::Add_NEW(Tree<float> *,int,int,T **,T **,int,int *,int,T,T,std::vector<Edge,std::allocator<_Ty>>)' being compiled
+                 with
+                 [
+                     T=float
+         ,            _Ty=Edge
+                 ]
+                 main.cpp(272) : see reference to class template instantiation 'Tree<float>' being compiled
+     1>c:\users\tanches\desktop\first with cycle (2)\first with cycle\first with cycle\tree.h(248): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\tanches\desktop\first with cycle (2)\first with cycle\first with cycle\tree.h(573): warning C4244: 'argument' : conversion from 'float' to 'const int', possible loss of data
+                 c:\users\tanches\desktop\first with cycle (2)\first with cycle\first with cycle\tree.h(569) : while compiling class template member function 'Tree<float> *Tree<float>::AddChild(Tree<float> *,T)'
+                 with
+                 [
+                     T=float
+                 ]
+                 main.cpp(277) : see reference to function template instantiation 'Tree<float> *Tree<float>::AddChild(Tree<float> *,T)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\tanches\desktop\first with cycle (2)\first with cycle\first with cycle\tree.h(583): warning C4244: 'argument' : conversion from 'float' to 'const int', possible loss of data
+                 c:\users\tanches\desktop\first with cycle (2)\first with cycle\first with cycle\tree.h(579) : while compiling class template member function 'Tree<float> *Tree<float>::AddBrother(Tree<float> *,T)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\tanches\desktop\first with cycle (2)\first with cycle\first with cycle\tree.h(571) : see reference to function template instantiation 'Tree<float> *Tree<float>::AddBrother(Tree<float> *,T)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\tanches\desktop\first with cycle (2)\first with cycle\first with cycle\tree.h(40) : while compiling class template member function 'Tree<float>::Tree(const int &,const T &,Tree<T> *,Tree<T> *)'
+                 with
+                 [
+                     T=float
+                 ]
+                 main.cpp(272) : see reference to function template instantiation 'Tree<float>::Tree(const int &,const T &,Tree<T> *,Tree<T> *)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\tanches\desktop\first with cycle (2)\first with cycle\first with cycle\tree.h(624): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+                 c:\users\tanches\desktop\first with cycle (2)\first with cycle\first with cycle\tree.h(606) : while compiling class template member function 'std::vector<float,std::allocator<_Ty>> Tree<float>::True_Cycles(std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>>,int,T,std::vector<Edge,std::allocator<Edge>>)'
+                 with
+                 [
+                     _Ty=float
+         ,            T=float
+                 ]
+                 c:\users\tanches\desktop\first with cycle (2)\first with cycle\first with cycle\tree.h(419) : see reference to function template instantiation 'std::vector<float,std::allocator<_Ty>> Tree<float>::True_Cycles(std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>>,int,T,std::vector<Edge,std::allocator<Edge>>)' being compiled
+                 with
+                 [
+                     _Ty=float
+         ,            T=float
+                 ]
+                 c:\users\tanches\desktop\first with cycle (2)\first with cycle\first with cycle\tree.h(579) : while compiling class template member function 'Tree<float> *Tree<float>::AddBrother(Tree<float> *,T)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\tanches\desktop\first with cycle (2)\first with cycle\first with cycle\tree.h(571) : see reference to function template instantiation 'Tree<float> *Tree<float>::AddBrother(Tree<float> *,T)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\tanches\desktop\first with cycle (2)\first with cycle\first with cycle\tree.h(693): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>Done Building Project "C:\Users\tanches\Desktop\first with cycle (2)\first with cycle\first with cycle\first with cycle.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:03.86
